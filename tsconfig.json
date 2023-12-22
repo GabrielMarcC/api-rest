@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es6", // Versão do ECMAScript alvo
+    "module": "commonjs", // Tipo de módulo a ser gerado
+    "strict": true, // Habilita todas as verificações restritas de tipagem
+    "esModuleInterop": true, // Permite importar módulos CommonJS como módulos ES6
+    "skipLibCheck": true, // Pula a verificação de bibliotecas de definição de tipos
+    "forceConsistentCasingInFileNames": true, // Força consistência no uso de letras maiúsculas e minúsculas nos nomes dos arquivos
+    "strictNullChecks": true, // Verificações estritas para valores null e undefined
+    "strictPropertyInitialization": false, // Verificação estrita de inicialização de propriedades de classe
+    "strictBindCallApply": false, // Verificação estrita de métodos bind, call e apply
+    "noImplicitAny": true, // Não permite tipos 'any' implícitos
+    "allowSyntheticDefaultImports": true, // Permite importações de módulos que não têm exportação padrão
+    "resolveJsonModule": true, // Permite a importação de arquivos JSON como módulos
+    "sourceMap": true, // Gera arquivos de mapa de origem (.map)
+    "outDir": "./dist" // Diretório de saída para os arquivos transpilados
+  },
+  "include": [
+    "src/**/*" // Lista de pastas/arquivos a serem incluídos na compilação
+  ],
+  "exclude": [
+    "node_modules" // Lista de pastas/arquivos a serem excluídos da compilação
+  ]
+}
